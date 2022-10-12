@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.16f1 (049d6eca3c44) revision 302446'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19044.2006; Version 2009; 64bit' Language: 'en' Physical Memory: 32582 MB
+OS: 'Windows 10 Home; OS build 19044.2130; Version 2009; 64bit' Language: 'en' Physical Memory: 32582 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Coding/GIMM 350/Hardlight_Ver_0.1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56987
+56294
 Successfully changed project path to: C:/Coding/GIMM 350/Hardlight_Ver_0.1
 C:/Coding/GIMM 350/Hardlight_Ver_0.1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 55.79 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 52.07 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.16f1 (049d6eca3c44)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -36,305 +36,93 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56280
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002366 seconds.
+Registered in 0.002548 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 54.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 52.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.035 seconds
+- Completed reload, in  0.995 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1035ms)
-		BeginReloadAssembly (48ms)
+	ReloadAssembly (995ms)
+		BeginReloadAssembly (46ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (383ms)
-			LoadAssemblies (46ms)
+		EndReloadAssembly (370ms)
+			LoadAssemblies (44ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (129ms)
+			SetupTypeCache (122ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (166ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (164ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (55ms)
+				RefreshPlugins (53ms)
 				BeforeProcessingInitializeOnLoad (8ms)
-				ProcessInitializeOnLoadAttributes (73ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				ProcessInitializeOnLoadAttributes (71ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004601 seconds.
+Registered in 0.005446 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 73.52 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 53.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.438 seconds
+- Completed reload, in  1.127 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1439ms)
-		BeginReloadAssembly (155ms)
+	ReloadAssembly (1128ms)
+		BeginReloadAssembly (119ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (1218ms)
-			LoadAssemblies (107ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (952ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (368ms)
+			SetupTypeCache (275ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (547ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (437ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (74ms)
-				BeforeProcessingInitializeOnLoad (100ms)
-				ProcessInitializeOnLoadAttributes (354ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (287ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3739 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.4 MB.
-System memory in use after: 159.7 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4178.
-Total: 4.867600 ms (FindLiveObjects: 0.523400 ms CreateObjectMapping: 0.370800 ms MarkObjects: 3.836900 ms  DeleteObjects: 0.134300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/XRI/Settings/XRInteractionEditorSettings.asset
-  artifactKey: Guid(62e07f6b6c7556349a77bacbaf445aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XRI/Settings/XRInteractionEditorSettings.asset using Guid(62e07f6b6c7556349a77bacbaf445aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fbd11e6738388637537abe4e93960d5') in 0.066385 seconds 
-  Import took 0.074383 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/XRI/Settings
-  artifactKey: Guid(616266b6348eb954f9a0124059717a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XRI/Settings using Guid(616266b6348eb954f9a0124059717a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988e6e46e075188f19080697688f46b4') in 0.006724 seconds 
-  Import took 0.013492 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4220.719968 seconds.
-  path: Assets/Prefabs/Door.mb
-  artifactKey: Guid(72999e62ec044ec4e90fe30cb22e8439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Door.mb using Guid(72999e62ec044ec4e90fe30cb22e8439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b578faa98bba2ec7cdab8731d597d3') in 0.161034 seconds 
-  Import took 0.167574 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 102.105383 seconds.
-  path: Assets/Prefabs/Door.mb
-  artifactKey: Guid(72999e62ec044ec4e90fe30cb22e8439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Door.mb using Guid(72999e62ec044ec4e90fe30cb22e8439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4455e589ad90ce539d16d8baf29211f4') in 0.045610 seconds 
-  Import took 0.051181 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 348.931724 seconds.
-  path: Assets/Door Animator Controller.controller
-  artifactKey: Guid(4992e292e4d87464ba2da7de1b60d633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Door Animator Controller.controller using Guid(4992e292e4d87464ba2da7de1b60d633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e5511926e8d055f3b63926726900a1') in 0.009412 seconds 
-  Import took 0.015217 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000535 seconds.
-  path: Assets/Door Animator Controller.controller
-  artifactKey: Guid(4992e292e4d87464ba2da7de1b60d633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Door Animator Controller.controller using Guid(4992e292e4d87464ba2da7de1b60d633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e5511926e8d055f3b63926726900a1') in 0.003158 seconds 
-  Import took 0.009236 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 318.956333 seconds.
-  path: Assets/Prefabs/Door Variant.prefab
-  artifactKey: Guid(d3282b812d3d29b4abcad01ea88c67fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Door Variant.prefab using Guid(d3282b812d3d29b4abcad01ea88c67fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Door Animator Controller) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Door Animator Controller) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
- -> (artifact id: '4241d1b6491a4e9e920a62beb46e8160') in 0.020864 seconds 
-  Import took 0.026489 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.289756 seconds.
-  path: Assets/DoorScript.cs
-  artifactKey: Guid(326132f9aa889f2458e20ae5f0ee6f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DoorScript.cs using Guid(326132f9aa889f2458e20ae5f0ee6f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bccae0c0800abc552cd177f687e8f3b6') in 0.010716 seconds 
-  Import took 0.016722 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001156 seconds.
-  path: Assets/DoorScript.cs
-  artifactKey: Guid(326132f9aa889f2458e20ae5f0ee6f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DoorScript.cs using Guid(326132f9aa889f2458e20ae5f0ee6f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bccae0c0800abc552cd177f687e8f3b6') in 0.002773 seconds 
-  Import took 0.008833 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004401 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.121 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1122ms)
-		BeginReloadAssembly (148ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (911ms)
-			LoadAssemblies (95ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (316ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (375ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (290ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3656 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 155.0 MB.
-System memory in use after: 155.3 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4225.
-Total: 3.151800 ms (FindLiveObjects: 0.299000 ms CreateObjectMapping: 0.168700 ms MarkObjects: 2.649200 ms  DeleteObjects: 0.033800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004915 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
 Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.092 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1092ms)
-		BeginReloadAssembly (125ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (904ms)
-			LoadAssemblies (93ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (312ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (367ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (283ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3656 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 155.1 MB.
-System memory in use after: 155.3 MB.
+Unloading 3740 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.4 MB.
+System memory in use after: 159.6 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4228.
-Total: 3.274700 ms (FindLiveObjects: 0.347800 ms CreateObjectMapping: 0.240800 ms MarkObjects: 2.670700 ms  DeleteObjects: 0.014700 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4179.
+Total: 3.762000 ms (FindLiveObjects: 0.357800 ms CreateObjectMapping: 0.259100 ms MarkObjects: 3.016100 ms  DeleteObjects: 0.108700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -348,76 +136,129 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 82.864243 seconds.
   path: Assets/Prefabs/Door Variant.prefab
   artifactKey: Guid(d3282b812d3d29b4abcad01ea88c67fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Door Variant.prefab using Guid(d3282b812d3d29b4abcad01ea88c67fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Door Animator Controller) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Door Animator Controller) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
- -> (artifact id: '3124fcbaa45266a5cab10cac3ceae93e') in 0.054550 seconds 
-  Import took 0.060666 seconds .
+Start importing Assets/Prefabs/Door Variant.prefab using Guid(d3282b812d3d29b4abcad01ea88c67fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '204d8f9e85750df609e1f654e4808415') in 0.093640 seconds 
+  Import took 0.099236 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.527622 seconds.
-  path: Assets/Prefabs/Door Variant.prefab
-  artifactKey: Guid(d3282b812d3d29b4abcad01ea88c67fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Door Variant.prefab using Guid(d3282b812d3d29b4abcad01ea88c67fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Door Animator Controller) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Door Animator Controller) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
- -> (artifact id: 'b5e99354d6ec25ee389ee43ced4306cb') in 0.019320 seconds 
-  Import took 0.025086 seconds .
+  Time since last request: 886.028735 seconds.
+  path: Assets/Prefabs/Door.mb
+  artifactKey: Guid(72999e62ec044ec4e90fe30cb22e8439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Door.mb using Guid(72999e62ec044ec4e90fe30cb22e8439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903be21c3716abe0448353ef884af7df') in 0.078049 seconds 
+  Import took 0.084589 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.586147 seconds.
-  path: Assets/DoorScript.cs
-  artifactKey: Guid(326132f9aa889f2458e20ae5f0ee6f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DoorScript.cs using Guid(326132f9aa889f2458e20ae5f0ee6f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff986326424364bdd94f72c1113c306a') in 0.002321 seconds 
-  Import took 0.008315 seconds .
+  Time since last request: 17.464891 seconds.
+  path: Assets/Prefabs/Wall_ExtraLong.prefab
+  artifactKey: Guid(db83802d7747e2a4ba44ffc010754a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Wall_ExtraLong.prefab using Guid(db83802d7747e2a4ba44ffc010754a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b522df8e1d3a2ead12531fbf8a68566') in 0.008662 seconds 
+  Import took 0.014198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/Prefabs/Wall_ExtraLong.prefab
+  artifactKey: Guid(db83802d7747e2a4ba44ffc010754a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Wall_ExtraLong.prefab using Guid(db83802d7747e2a4ba44ffc010754a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b522df8e1d3a2ead12531fbf8a68566') in 0.005463 seconds 
+  Import took 0.011118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.487457 seconds.
+  path: Assets/Prefabs/Wall_ExtraLong.prefab
+  artifactKey: Guid(db83802d7747e2a4ba44ffc010754a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Wall_ExtraLong.prefab using Guid(db83802d7747e2a4ba44ffc010754a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c49a6c95663c05787491916871a2d4') in 0.033989 seconds 
+  Import took 0.039661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.213863 seconds.
+  path: Assets/Prefabs/Wall_ExtraLong.prefab
+  artifactKey: Guid(db83802d7747e2a4ba44ffc010754a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Wall_ExtraLong.prefab using Guid(db83802d7747e2a4ba44ffc010754a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38eac7de269e92c6a360e414a6876ab2') in 0.020583 seconds 
+  Import took 0.026690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.410096 seconds.
+  path: Assets/Prefabs/Wall_ExtraLong.prefab
+  artifactKey: Guid(db83802d7747e2a4ba44ffc010754a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Wall_ExtraLong.prefab using Guid(db83802d7747e2a4ba44ffc010754a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb001751f5be9bd9a0b5c790cf7c596') in 0.017682 seconds 
+  Import took 0.023302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.858439 seconds.
+  path: Assets/Prefabs/Wall_ExtraLong.prefab
+  artifactKey: Guid(db83802d7747e2a4ba44ffc010754a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Wall_ExtraLong.prefab using Guid(db83802d7747e2a4ba44ffc010754a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80e88794a26dcf83d5d10b1cb6fd055') in 0.024392 seconds 
+  Import took 0.029851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.184217 seconds.
+  path: Assets/Prefabs/Wall_ExtraLong.prefab
+  artifactKey: Guid(db83802d7747e2a4ba44ffc010754a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Wall_ExtraLong.prefab using Guid(db83802d7747e2a4ba44ffc010754a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5e657c00696ae5aa705696df413656') in 0.018124 seconds 
+  Import took 0.023982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.003124 seconds.
+  path: Assets/Prefabs/Wall_ExtraLong.prefab
+  artifactKey: Guid(db83802d7747e2a4ba44ffc010754a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Wall_ExtraLong.prefab using Guid(db83802d7747e2a4ba44ffc010754a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa695cac82031d2bfbd6a7c0b1ca0382') in 0.017975 seconds 
+  Import took 0.023455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.421043 seconds.
+  path: Assets/Prefabs/Wall_ExtraLong.prefab
+  artifactKey: Guid(db83802d7747e2a4ba44ffc010754a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Wall_ExtraLong.prefab using Guid(db83802d7747e2a4ba44ffc010754a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd4d6d28716f61913c2557f569add8b') in 0.018728 seconds 
+  Import took 0.025054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.002962 seconds.
+  path: Assets/Prefabs/Wall_ExtraLong.prefab
+  artifactKey: Guid(db83802d7747e2a4ba44ffc010754a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Wall_ExtraLong.prefab using Guid(db83802d7747e2a4ba44ffc010754a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90ff8485f5cc84009e683b7ce369b2e') in 0.019327 seconds 
+  Import took 0.025582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.185769 seconds.
+  path: Assets/Prefabs/Wall_ExtraLong.prefab
+  artifactKey: Guid(db83802d7747e2a4ba44ffc010754a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Wall_ExtraLong.prefab using Guid(db83802d7747e2a4ba44ffc010754a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4507e9f75c3838ecb4109a6ebed5d3') in 0.019756 seconds 
+  Import took 0.025003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.801932 seconds.
+  path: Assets/Prefabs/Wall_ExtraLong.prefab
+  artifactKey: Guid(db83802d7747e2a4ba44ffc010754a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Wall_ExtraLong.prefab using Guid(db83802d7747e2a4ba44ffc010754a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb25b795f96a053aaf0558b41a222b6') in 0.018446 seconds 
+  Import took 0.024231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.459512 seconds.
+  path: Assets/Prefabs/Wall_ExtraLong.prefab
+  artifactKey: Guid(db83802d7747e2a4ba44ffc010754a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Wall_ExtraLong.prefab using Guid(db83802d7747e2a4ba44ffc010754a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f29211f07139b4e71eae36e4f66640') in 0.017266 seconds 
+  Import took 0.023151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.032479 seconds.
+  path: Assets/Prefabs/Wall_ExtraLong.prefab
+  artifactKey: Guid(db83802d7747e2a4ba44ffc010754a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Wall_ExtraLong.prefab using Guid(db83802d7747e2a4ba44ffc010754a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4395cad45c702a3e9b8117c1c34d04ff') in 0.015173 seconds 
+  Import took 0.021823 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
