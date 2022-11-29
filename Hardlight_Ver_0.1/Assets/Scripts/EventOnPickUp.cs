@@ -20,7 +20,7 @@ public class EventOnPickUp : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Destroy();
+        //Destroy();
         doorAnim.SetBool("IsOpening", true);
     }
 }
