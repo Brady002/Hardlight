@@ -352,6 +352,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5717125477818863570}
+  - component: {fileID: 4603026626287504368}
   m_Layer: 0
   m_Name: Turret Varient
   m_TagString: Untagged
@@ -376,6 +377,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4603026626287504368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3173388406146855210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e7d6d047f58cbc4a8f5024bebc8e9d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeRange: 5
+  fireRate: 1
+  damage: 10
+  projectileSpeed: 5
+  projectileRange: 20
+  player: {fileID: 0}
+  projectile: {fileID: 9060107613750839176, guid: f9e0b72129f45594bb42f646b0ee73f1, type: 3}
+  barrel: {fileID: 2104726472659376328}
 --- !u!1001 &2959479588305193481
 PrefabInstance:
   m_ObjectHideFlags: 0
