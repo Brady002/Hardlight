@@ -34,6 +34,16 @@ public class GravityBody : MonoBehaviour
         Quaternion upRotation = Quaternion.FromToRotation(transform.up, -GravityDirection);
         Quaternion newRotation = Quaternion.Slerp(_rigidbody.rotation, upRotation * _rigidbody.rotation, Time.fixedDeltaTime * 3f);
         _rigidbody.MoveRotation(newRotation);
+
+        if (transform.rotation != newRotation)
+        {
+            _rigidbody.freezeRotation = false;
+        }
+        else
+        {
+            _rigidbody.freezeRotation = true;
+        }
+        Debug.Log(newRotation);
     }
 
     public void AddGravityArea(GravityArea gravityArea)
