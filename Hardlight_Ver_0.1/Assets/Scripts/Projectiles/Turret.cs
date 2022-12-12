@@ -24,7 +24,7 @@ public class Turret : MonoBehaviour
     void Start()
     {
 
-        player = GameObject.Find("TestCube");
+        player = GameObject.Find("Player");
         defRot = transform.rotation;
         InvokeRepeating("FindTarget", 0f, 0.2f);
     }

@@ -43,7 +43,6 @@ public class GravityBody : MonoBehaviour
         {
             _rigidbody.freezeRotation = true;
         }
-        Debug.Log(newRotation);
     }
 
     public void AddGravityArea(GravityArea gravityArea)
