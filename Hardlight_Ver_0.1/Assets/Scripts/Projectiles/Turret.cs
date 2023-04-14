@@ -8,7 +8,7 @@ public class Turret : MonoBehaviour
     public float activeRange = 5.0f;
     private float turnSpeed = 5f;
     public float fireRate = 1f;
-    public float damage = 10f;
+    public int damage = 10;
     public float projectileSpeed = 5f;
     public float projectileRange = 20f;
 
@@ -24,7 +24,7 @@ public class Turret : MonoBehaviour
     void Start()
     {
 
-        player = GameObject.Find("Player");
+       //player = GameObject.Find("Player");
         defRot = transform.rotation;
         InvokeRepeating("FindTarget", 0f, 0.2f);
     }

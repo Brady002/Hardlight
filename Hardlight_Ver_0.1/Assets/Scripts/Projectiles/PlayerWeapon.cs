@@ -6,7 +6,7 @@ public class PlayerWeapon : MonoBehaviour
 {
     [Header("Attributes")]
     public float fireRate = 1f;
-    public float damage = 10f;
+    public int damage = 10;
     public float projectileSpeed = 5f;
     public float projectileRange = 20f;
 

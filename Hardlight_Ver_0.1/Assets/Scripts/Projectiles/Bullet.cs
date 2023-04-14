@@ -6,11 +6,11 @@ public class Bullet : MonoBehaviour
 {
 
     public float speed = 1f;
-    public float damage = 1f;
+    public int damage = 1;
     public float range = 1f;
     private Vector3 startPos;
     
-    public void Attributes(float _damage, float _projectileSpeed, float _projectileRange)
+    public void Attributes(int _damage, float _projectileSpeed, float _projectileRange)
     {
         damage = _damage;
         speed = _projectileSpeed;
@@ -32,9 +32,18 @@ public class Bullet : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision collision)
     {
+        
         Destroy(gameObject);
+        try
+        {
+            //Debug.Log("detected");
+            collision.collider.GetComponent<PlayerHealth>().TakeDamage(damage);
+        } catch
+        {
+            return;
+        }
         return;
     }
 

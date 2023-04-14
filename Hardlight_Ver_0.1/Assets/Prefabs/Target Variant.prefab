@@ -214,7 +214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   locked: 0
-  activated: 0
+  isHit: 0
 --- !u!1 &5964115711647823338
 GameObject:
   m_ObjectHideFlags: 0
@@ -265,7 +265,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5561349426305759274, guid: 6c85b6c56951cdf4abbbbe845886dd12, type: 3}
+  - {fileID: 2100000, guid: 0dbcee6db89a2f74da96171be6189413, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
