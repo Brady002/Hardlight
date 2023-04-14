@@ -16,59 +16,52 @@ public class PlayerHealth : MonoBehaviour
     void Start()
     {
         Debug.Log(health);
-        
+        StartCoroutine(StartHealing());
     }
 
     // Update is called once per frame
     void Update()
-    {;
+    {
         if(health <= 0)
         {
             Respawn();
         }
         if(health > maxHealth)
         {
+            health = maxHealth;
             canHeal = false;
         }
         Debug.Log(health);
+        if(!canHeal)
+        {
+            healthRegenDelay -= Time.deltaTime;
+        }
+        if(healthRegenDelay <= 0)
+        {
+            healthRegenDelay = 5f;
+            canHeal = true;
+        }
     }
 
     public void TakeDamage(int damage)
     {
-        StopCoroutine(DelayTimer());
-        StopCoroutine(StartHealing());
         canHeal = false;
         health -= damage;
-        if (health < maxHealth)
-        {
-            StartCoroutine(DelayTimer());
-        }
+        healthRegenDelay = 5f;
 
-    }
-
-    IEnumerator DelayTimer()
-    {
-        yield return new WaitForSeconds(healthRegenDelay);
-        canHeal = true;
-        
-        StartCoroutine(StartHealing());
-        StopCoroutine(DelayTimer());
     }
 
     IEnumerator StartHealing()
     {
-        yield return new WaitForSeconds(healthRegenCooldown);
-        if (canHeal && health < maxHealth) 
+        while (true)
         {
-            for(int i = health; i < maxHealth; i += amountHealed)
+            yield return new WaitForSeconds(healthRegenCooldown);
+            if (canHeal && health < maxHealth)
             {
-                yield return new WaitForSeconds(healthRegenCooldown);
                 health += amountHealed;
-                
+
             }
-            
         }
-        
         
     }
 
