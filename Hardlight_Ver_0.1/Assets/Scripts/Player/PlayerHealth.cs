@@ -15,7 +15,6 @@ public class PlayerHealth : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log(health);
         StartCoroutine(StartHealing());
     }
 
@@ -31,7 +30,6 @@ public class PlayerHealth : MonoBehaviour
             health = maxHealth;
             canHeal = false;
         }
-        Debug.Log(health);
         if(!canHeal)
         {
             healthRegenDelay -= Time.deltaTime;

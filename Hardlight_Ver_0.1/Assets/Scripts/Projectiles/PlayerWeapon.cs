@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerWeapon : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class PlayerWeapon : MonoBehaviour
     public float projectileRange = 20f;
 
     [Header("Unity Setup")]
+    [SerializeField] private InputActionReference fireButton;
     public GameObject projectile;
     AudioSource source;
     //public Transform barrel;
@@ -18,13 +20,15 @@ public class PlayerWeapon : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        source = GetComponent<AudioSource>();
+        //source = GetComponent<AudioSource>();
     }
- 
-    // Update is called once per frame
-    public void Fire()
+
+    private void OnEnable() => fireButton.action.performed += Fire;
+
+    private void OnDisable() => fireButton.action.performed -= Fire;
+
+    public void Fire(InputAction.CallbackContext obj)
     {
-        Debug.Log("Fired");
         GameObject bulletGO = (GameObject)Instantiate(projectile, transform.position, transform.rotation);
         Bullet bullet = bulletGO.GetComponent<Bullet>();
 

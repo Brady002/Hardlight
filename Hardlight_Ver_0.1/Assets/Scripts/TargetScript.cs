@@ -22,6 +22,7 @@ public class TargetScript : MonoBehaviour
         if(isHit == true)
         {
             targetAnim.SetBool("hasBeenHit", true);
+            locked = true;
         }
     }
 
