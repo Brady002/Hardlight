@@ -42,7 +42,7 @@ public class Turret : MonoBehaviour
         if (distanceToTarget < activeRange) //Checks to see if target is close enough to turret
         {
             Vector3 direction = player.transform.position - transform.position; //Sets turret to face its target
-            Quaternion targetRotation = Quaternion.LookRotation(direction);
+            Quaternion targetRotation = Quaternion.LookRotation(direction, transform.up);
             Vector3 rotation = Quaternion.Lerp(transform.localRotation, targetRotation, Time.deltaTime * turnSpeed).eulerAngles;
             transform.localRotation = Quaternion.Euler(0f, rotation.y, 0f);
 
@@ -65,12 +65,14 @@ public class Turret : MonoBehaviour
             GameObject bulletGO = (GameObject)Instantiate(projectile, barrel.position, barrel.rotation);
             Bullet bullet = bulletGO.GetComponent<Bullet>();
             
+            
+
             if (bullet != null)
             {
                 bullet.Attributes(damage, projectileSpeed, projectileRange); //Passes on turret's attributes to spawned bullet
             }
             source.Play();
-            source.pitch = Random.Range(0.95f, 1.05f);
+            source.pitch = Random.Range(0.7f, 1.05f);
         }
     }
 

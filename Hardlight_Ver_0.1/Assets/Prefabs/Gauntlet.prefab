@@ -170,6 +170,7 @@ MonoBehaviour:
   damage: 10
   projectileSpeed: 5
   projectileRange: 20
+  fireButton: {fileID: 0}
   projectile: {fileID: 9060107613750839176, guid: f9e0b72129f45594bb42f646b0ee73f1, type: 3}
 --- !u!54 &1395210464749443133
 Rigidbody:
