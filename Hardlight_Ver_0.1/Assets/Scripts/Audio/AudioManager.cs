@@ -6,7 +6,7 @@ public class AudioManager : MonoBehaviour
 
     public int currentAdaptiveLevel;
     //public AudioMixerSnapshot[] snapshotLevels;
-    public float transitionTime = 1;
+    public float transitionTime = 3;
     public AudioMixerSnapshot snapshotLevel;
 
     public void AdjustAudioLevel (int level)
@@ -18,6 +18,7 @@ public class AudioManager : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if(other.tag == "Player")
         //currentAdaptiveLevel = level;
         snapshotLevel.TransitionTo(transitionTime);
         //Debug.Log("feje");

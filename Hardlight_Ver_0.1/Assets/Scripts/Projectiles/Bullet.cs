@@ -38,8 +38,8 @@ public class Bullet : MonoBehaviour
         Destroy(gameObject);
         try
         {
-            //Debug.Log("detected");
             collision.collider.GetComponent<PlayerHealth>().TakeDamage(damage);
+            
         } catch
         {
             return;

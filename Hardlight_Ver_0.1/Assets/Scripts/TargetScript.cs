@@ -28,11 +28,15 @@ public class TargetScript : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (!locked)
+        if (other.tag == "projectile")
         {
-            targetAnim.SetBool("hasBeenHit", true);
-            //activated = true;
+            if (!locked)
+            {
+                targetAnim.SetBool("hasBeenHit", true);
+                isHit = true;
+            }
         }
+        
 
     }
 }

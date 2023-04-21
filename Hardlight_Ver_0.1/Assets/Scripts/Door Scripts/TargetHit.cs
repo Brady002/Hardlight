@@ -6,6 +6,7 @@ public class TargetHit : MonoBehaviour
 {
 
     public GameObject[] targets;
+    public GameObject target;
     private Animator doorAnim;
     bool opening = false;
     private int targetsHit = -1;
@@ -18,32 +19,12 @@ public class TargetHit : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //opening = target.transform.GetComponent<TargetScript>().isHit;
-        for (int i = 0; i < targets.Length; i++)
-        {
-            if(targets[i].transform.GetComponent<TargetScript>().isHit == true && targets[i].transform.GetComponent<TargetScript>().locked == false)
-            {
-                targetsHit++;
-            }
-            
-        }
-
-        if (targetsHit >= targets.Length - 1)
-        {
-
-            doorAnim.SetBool("IsOpening", true);
-        }
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        //Destroy();
+        opening = target.transform.GetComponent<TargetScript>().isHit;
         if (opening)
         {
 
             doorAnim.SetBool("IsOpening", true);
         }
-        
     }
 
 }

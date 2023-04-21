@@ -20,7 +20,7 @@ public class PlayerWeapon : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //source = GetComponent<AudioSource>();
+        source = GetComponent<AudioSource>();
     }
 
     private void OnEnable() => fireButton.action.performed += Fire;
@@ -35,6 +35,7 @@ public class PlayerWeapon : MonoBehaviour
         if (bullet != null)
         {
             bullet.Attributes(damage, projectileSpeed, projectileRange); //Passes on attributes to spawned bullet
+            source.pitch = Random.Range(0.90f, 1.1f);
             source.Play();
         }
     }

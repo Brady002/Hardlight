@@ -45,6 +45,7 @@ public class PlayerHealth : MonoBehaviour
     {
         canHeal = false;
         health -= damage;
+        Debug.Log("ow");
         healthRegenDelay = 5f;
 
     }

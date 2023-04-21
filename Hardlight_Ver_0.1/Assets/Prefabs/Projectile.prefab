@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3155596529474341425}
   - component: {fileID: 5797209245390854755}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,9 +107,9 @@ GameObject:
   - component: {fileID: 7397041219751654587}
   - component: {fileID: 6128905567311559305}
   - component: {fileID: 65060839472388118}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Projectile
-  m_TagString: Untagged
+  m_TagString: projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -156,7 +156,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9a8a2938108f7d445a4cb074e537f53e, type: 2}
+  - {fileID: 2100000, guid: f6979aca2208a15469632710316a8b08, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
