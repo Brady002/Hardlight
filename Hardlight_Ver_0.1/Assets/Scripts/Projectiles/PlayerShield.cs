@@ -37,21 +37,6 @@ public class PlayerShield : MonoBehaviour
         shieldButton.action.performed -= ActivateShield;
     } 
 
-    public void RaiseShield(InputAction.CallbackContext obj)
-    {
-        shield.enabled = true;
-        circle.SetActive(true);
-        //circle.Play();
-        source.Play();
-    }
-
-    public void LowerShield(InputAction.CallbackContext obj)
-    {
-        //circle.Stop();
-        shield.enabled = false;
-        circle.SetActive(false);
-    }
-
     public void ActivateShield(InputAction.CallbackContext obj)
     {
         source.Play();
@@ -59,11 +44,13 @@ public class PlayerShield : MonoBehaviour
         {
             shield.enabled = false;
             circle.SetActive(false);
+            source.Stop();
             isOn = false;
         } else if (!isOn)
         {
             shield.enabled = true;
             circle.SetActive(true);
+            source.Play();
             isOn = true;
         }
     }

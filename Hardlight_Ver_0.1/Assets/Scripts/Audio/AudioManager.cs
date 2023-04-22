@@ -13,8 +13,8 @@ public class AudioManager : MonoBehaviour
     {
         if(other.tag == "Player" && !played)
         {
-            snapshotLevel.TransitionTo(transitionTime);
             played = true;
+            snapshotLevel.TransitionTo(transitionTime);
         }
         
 

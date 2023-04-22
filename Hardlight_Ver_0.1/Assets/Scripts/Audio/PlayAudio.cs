@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayAudio : MonoBehaviour
 {
 
-    AudioSource source;
+    public AudioSource source;
     private bool played = false;
     public float delay = 0f;
 
